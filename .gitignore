@@ -10,3 +10,6 @@ __pycache__/
 
 # Ignore VSCode settings
 .vscode/
+
+# Ignore all PNG files
+*.png
