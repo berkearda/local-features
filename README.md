@@ -3,7 +3,7 @@
 This project implements key components of Harris corner detection, descriptor extraction, and matching for local image features. The goal is to detect and match local keypoints between two images using three different techniques for matching descriptors: **One-way Nearest Neighbor**, **Mutual Nearest Neighbor**, and **Ratio Test Matching**.
 
 ## Project Structure
-
+```bash
 lab02-local-features/
 ├── functions/              # Directory containing all main functions
 │   ├── __init__.py         # Init file for functions module
@@ -20,7 +20,7 @@ lab02-local-features/
 ├── main.py                 # Main script for executing the project
 ├── open_project.sh         # Shell script to set up the project environment
 └── requirements.txt        # List of dependencies for the project
-
+```
 ## Project Features
 
 This project includes the following key components:
@@ -68,10 +68,10 @@ pip install -r requirements.txt
 ## How to Run
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/berkearda/local-features.git
-   cd local-features
-   ```
+```bash
+git clone https://github.com/berkearda/local-features.git
+cd local-features
+```
 2. Install the required dependencies:
 ```bash
 pip install -r requirements.txt
