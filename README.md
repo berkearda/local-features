@@ -4,9 +4,22 @@ This project implements key components of Harris corner detection, descriptor ex
 
 ## Project Structure
 
-lab02-local-features/ │ ├── functions/ # Directory containing all main functions │ ├── init.py # Init file for functions module │ ├── extract_descriptors.py # Keypoint descriptor extraction functions │ ├── extract_harris.py # Harris corner detection functions │ ├── match_descriptors.py # Descriptor matching functions │ └── vis_utils.py # Visualization utilities │ ├── images/ # Directory for input image files │ ├── blocks.jpg │ ├── house.jpg │ ├── I1.jpg │ └── I2.jpg │ ├── .gitignore # Ignoring unnecessary files and outputs ├── main.py # Main script for executing the project ├── open_project.sh # Shell script to set up the project environment └── requirements.txt # List of dependencies for the project
-
-
+lab02-local-features/
+├── functions/              # Directory containing all main functions
+│   ├── __init__.py         # Init file for functions module
+│   ├── extract_descriptors.py # Keypoint descriptor extraction functions
+│   ├── extract_harris.py   # Harris corner detection functions
+│   ├── match_descriptors.py # Descriptor matching functions
+│   └── vis_utils.py        # Visualization utilities
+├── images/                 # Directory for input image files
+│   ├── blocks.jpg
+│   ├── house.jpg
+│   ├── I1.jpg
+│   └── I2.jpg
+├── .gitignore              # Ignoring unnecessary files and outputs
+├── main.py                 # Main script for executing the project
+├── open_project.sh         # Shell script to set up the project environment
+└── requirements.txt        # List of dependencies for the project
 
 ## Project Features
 
